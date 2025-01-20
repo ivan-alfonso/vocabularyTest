@@ -1,16 +1,18 @@
 {
-    "@context": {
-      "as": "https://www.w3.org/ns/activitystreams#",
-      "dm": "https://ivan-alfonso.github.io/vocabularyTest/ns/vocab.jsonld",
-      "DomainModel": {
-        "@id": "dm:DomainModel",
-        "@type": "rdfs:Class",
-        "rdfs:subClassOf": "as:Object"
-      },
-      "name": {
-        "@id": "as:name",
-        "@type": "xsd:string"
-      }
+  "@context": {
+    "as": "https://www.w3.org/ns/activitystreams#",
+    "dm": "https://ivan-alfonso.github.io/vocabularyTest/ns/vocab.jsonld#",
+    "DomainModel": "dm:DomainModel",
+    "name": {
+      "@id": "as:name",
+      "@type": "xsd:string"
     }
-  }
-  
+  },
+  "@graph": [
+    {
+      "@id": "dm:DomainModel",
+      "@type": "rdfs:Class",
+      "rdfs:subClassOf": "as:Object"
+    }
+  ]
+}
