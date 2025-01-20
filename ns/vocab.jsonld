@@ -1,7 +1,7 @@
 {
     "@context": {
       "as": "https://www.w3.org/ns/activitystreams#",
-      "dm": "https://github.com/ivan-alfonso/vocabularyTest/vocab.jsonld",
+      "dm": "https://ivan-alfonso.github.io/vocabularyTest/ns/vocab.jsonld",
       "DomainModel": {
         "@id": "dm:DomainModel",
         "@type": "rdfs:Class",
