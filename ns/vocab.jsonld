@@ -1,7 +1,9 @@
 {
   "@context": {
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
     "as": "https://www.w3.org/ns/activitystreams#",
-    "dm": "https://ivan-alfonso.github.io/vocabularyTest/ns/vocab.jsonld#",
+    "dm": "https://ivan-alfonso.github.io/vocabularyTest/ns#",
     "DomainModel": "dm:DomainModel",
     "name": {
       "@id": "as:name",
@@ -12,6 +14,8 @@
     {
       "@id": "dm:DomainModel",
       "@type": "rdfs:Class",
+      "rdfs:label": "DomainModel",
+      "rdfs:comment": "A model representing a domain in a UML class diagram.",
       "rdfs:subClassOf": "as:Object"
     }
   ]
